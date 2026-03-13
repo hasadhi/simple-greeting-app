@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Greeting App</title>
+</head>
+<body style="background-color: #1a1a2e; color: white; font-family: sans-serif; text-align: center; padding-top: 50px;">
+    
+    <div style="background: #16213e; display: inline-block; padding: 40px; border-radius: 20px; border: 1px solid #0f3460;">
+        <h1 style="color: #a29bfe;">Welcome</h1>
+        <p>Please enter your name to receive a greeting.</p>
+        
+        <form action="/submit" method="POST">
+            <input type="text" name="userName" placeholder="Enter your name" required 
+                   style="padding: 10px; border-radius: 5px; border: none; width: 250px;">
+            <br><br>
+            <button type="submit" style="background: #6c5ce7; color: white; padding: 10px 40px; border: none; border-radius: 10px; cursor: pointer; font-weight: bold;">
+                Get Greeting
+            </button>
+        </form>
+    </div>
+
+</body>
+</html>
